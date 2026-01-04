@@ -1,0 +1,33 @@
+# Environment files
+.env
+config/database.php
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Uploaded files (excluding structure)
+uploads/*
+!uploads/.gitkeep
+
+# Cache
+cache/
+*.cache
+
+# Vendor (if using Composer in future)
+vendor/
